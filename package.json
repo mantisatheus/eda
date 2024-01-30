@@ -1,0 +1,19 @@
+{
+    "name": "eda",
+    "version": "0.0.1",
+    "description": "app to calc nutrition",
+    "license": "MIT",
+    "scripts": {
+      "build": "webpack --mode=none --watch",
+      "start": "node ./dist/bundle.js",
+      "lint": "eslint --ext .js,.jsx,.ts,.tsx src/"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.5",
+        "typescript": "5.3.3",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.11.1",
+        "ts-loader": "8.4.0"
+    }
+}

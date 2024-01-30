@@ -1,0 +1,33 @@
+// {
+//     "compilerOptions": {
+//       "jsx": "react",
+//       "allowJs": true,
+//       "target": "ES6",
+//       "module": "ESNext",
+//       "skipLibCheck": true,
+//       "esModuleInterop": true,
+//       "noImplicitAny": true,
+//       "sourceMap": true,
+//       "baseUrl": ".",
+//       "outDir": "dist",
+//       "moduleResolution": "node",
+//       "resolveJsonModule": true,
+//       "paths": {
+//         "*": ["node_modules/*"],
+//         "@assets/*": ["./assets/*"],
+//         "@src/*": ["./src/*"]
+//       }
+//     },
+//     "include": ["src/**/*", "tools/**/*"]
+//   }
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "es6",
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node"
+    }
+  }
